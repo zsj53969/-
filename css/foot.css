@@ -1,0 +1,62 @@
+.foot {
+    background: #3A3A3A;
+    height: 298px;
+    width: 100%;
+
+}
+
+.foot-main {
+    position: relative;
+    margin: 0 auto;
+}
+
+.f-name {
+    position: absolute;
+    top: 76px;
+    left: 264px;
+    font-size: 32px;
+    color: #586AEA;
+}
+
+.f-ewm {
+    position: absolute;
+    top: 34px;
+    left: 882px;
+}
+
+.f-nav {
+    position: absolute;
+    top: 190px;
+    left: 264px;
+
+}
+.f-nav a {
+    color: #fff;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.f-icp {
+    position: absolute;
+    top: 268px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #999999;
+    font-size: 14px;
+}
+
+.f-sys {
+    position: absolute;
+    top: 164px;
+    left: 921px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.f-wx {
+    position: absolute;
+    top: 190px;
+    left: 894px;
+    font-size: 14px;
+    color: #fff;
+}

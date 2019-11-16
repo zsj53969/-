@@ -1,12 +1,14 @@
 body {
     font-size: 16px;
-    height: 3000px;
 }
 
-
 .banner {
+    width: 100%;
+    background: #4674EE;
+}
+.banner-main {
     width: 1366px;
-    height: 397px;
+    height: 398px;
     margin: 0 auto 20px;
     background-image: url("../images/banner.jpg");
     background-repeat: no-repeat;
@@ -17,6 +19,10 @@ body {
     margin-right: 20px;
     color: #999;
     font-weight: 500;
+
+}
+.main-nav dd{
+    cursor: pointer;
 }
 
 .mid1 dt, .mid1 dd ,.mid2 dt, .mid2 dd,.bottom dd{
@@ -28,6 +34,7 @@ body {
 .mid1 dt,.mid2 dt {
     background-color: #586AEA;
     color: #fff;
+    cursor: pointer;
 }
 
 
@@ -51,20 +58,133 @@ body {
     padding-top: 4px;
 }
 
-.inter-question h3{
+
+.inter-question3 h3, .comm-questions h3{
     width: 396px;
     height: 24px;
     background-image: url(../images/child-title.png);
-    margin: 30px auto 0;
+    margin: 30px auto 20px;
     text-align: center;
     color: #586AEA;
 }
-
-.inter-question h4 {
-
+.comm-questions h3 {
+    margin-bottom: 40px;
 }
-
-.inter-question li {
+.inter-question3 li {
     width: 400px;
     height: 200px;
+    position: relative;
+    padding: 30px 10px 0 20px;
+    float: left;
+
+}
+.inter-question3 li:hover {
+    box-shadow:0 2px 4px 2px rgba(0,0,0,0.1);
+}
+.inter-question3 li:hover p:first-child{
+    color: #586AEA;
+}
+.inter-question3 li:hover .go {
+    display: block;
+}
+.iq-type p span {
+    font-size: 12px;
+    color: #999999;
+    margin-left: 5px;
+}
+.iq-type p:first-child {
+    font-size: 18px;
+    color: #333;
+    height: 60px;
+}
+
+.iq-type {
+    margin-left: 20px;
+}
+
+.liulan {
+    margin-left: 30px;
+    margin-top: 4px;
+}
+
+.go {
+    width: 120px;
+    height: 36px;
+    border: 1px solid #586AEA;
+    text-align: center;
+    line-height: 36px;
+    color: #586AEA;
+    margin: 25px auto 0;
+    display: none;
+    cursor: pointer;
+}
+
+.comm-questions p:first-child {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+}
+.comm-questions li {
+    border-bottom: 1px solid #F3F3F3;
+    padding: 20px 0 20px 40px;
+    position: relative;
+}
+li.circle::before {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: #586AEA;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    left: 14px;
+}
+li.fire::before {
+    content: "\e9a9";
+    font-family: "icomoon";
+    color: #F74343;
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 12px;
+}
+
+.comm-questions li:hover {
+    box-shadow: 1px 1px 6px rgba(88,106,234,1)  inset;
+}
+.comm-questions p img, .comm-questions p button, .comm-questions p span {
+    float: left;
+    font-size: 14px;
+    color: #999;
+}
+.comm-questions p button {
+    border: 1px solid #3FADDF;
+    background-color: #CDEFFF;
+    color: #3FADDF;
+    width: 51px;
+    height: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.comm-questions p img {
+    margin: 3px 10px 0 0;
+}
+.comm-questions p a {
+    float: right;
+    color: #586AEA;
+    font-size: 14px;
+}
+.comm-questions .load {
+    width: 120px;
+    height: 40px;
+    color: #586AEA;
+    font-size: 12px;
+    border: 1px solid #586AEA;
+    background: #fff;
+    display: block;
+    margin: 40px auto;
+    border-radius: 4px;
+    cursor: pointer;
 }
