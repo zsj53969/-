@@ -1,79 +1,70 @@
-.w {
-    width: 1200px;
-    margin: 0 auto;
-}
-a:hover {
-    color: #586AEA;
-}
 body {
-    background: #fff;
     font-size: 16px;
+    height: 3000px;
 }
 
-.header-nav {
-    height: 70px;
+
+.banner {
+    width: 1366px;
+    height: 397px;
+    margin: 0 auto 20px;
+    background-image: url("../images/banner.jpg");
+    background-repeat: no-repeat;
 }
-.hn-left a,.hn-left h1 {
+
+.main-nav dt,.main-nav dd {
     float: left;
-    height: 70px;
-    line-height: 70px;
+    margin-right: 20px;
+    color: #999;
+    font-weight: 500;
 }
-.hn-left a {
-    width: 40px;
+
+.mid1 dt, .mid1 dd ,.mid2 dt, .mid2 dd,.bottom dd{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 2px 10px 2px;
+    margin-bottom: 20px;
+}
+.mid1 dt,.mid2 dt {
+    background-color: #586AEA;
+    color: #fff;
+}
+
+
+.mid1, .mid2 {
+    border-top: 1px solid #F0F0F0;
+    padding: 20px 0 0 20px;
+}
+.mid1 {
+    margin-top: 10px;
+}
+
+.mid2 {
+    border-bottom: 1px solid #F0F0F0;
+    margin-bottom: 20px;
+}
+
+.bottom dt {
+    font-size: 18px;
+    font-family: "黑体";
+    color: #333;
+    padding-top: 4px;
+}
+
+.inter-question h3{
+    width: 396px;
+    height: 24px;
+    background-image: url(../images/child-title.png);
+    margin: 30px auto 0;
     text-align: center;
-}
-.hn-left h1 {
     color: #586AEA;
 }
 
-.hn-left a:hover{
-    border-bottom: 2px solid #586AEA;
-    font-size: 16px;
+.inter-question h4 {
+
 }
 
-.first-page {
-    margin: 0 70px 0 100px;
-}
-.hn-right div{
-    position: relative;
-}
-.hn-right input {
-    width: 300px;
-    height: 36px;
-    outline: none;
-    border: 1px solid #E6E6E6;
-    margin-right: 100px;
-}
-.hn-right button {
-    width: 36px;
-    height: 36px;
-    border: 0;
-    background: #fff;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-.hn-right p {
-    width: 56px;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.hn-right div, .hn-right a {
-    float: right;
-}
-.hn-right a {
-    margin-top: 22px;
-    height: 26px;
-    text-align: center;
-    line-height: 26px;
-}
-
-.hn-right .reg {
-    width: 58px;
-    border: 1px solid #586AEA;
-    border-radius: 20px;
-    margin-left: 12px;
-    
+.inter-question li {
+    width: 400px;
+    height: 200px;
 }

@@ -1,0 +1,88 @@
+a:hover {
+    color: #586AEA;
+}
+
+.header-nav {
+    height: 70px;
+}
+.hn-left a,.hn-left h1 {
+    float: left;
+    height: 70px;
+    line-height: 70px;
+}
+.hn-left a {
+    width: 40px;
+    text-align: center;
+}
+.hn-left h1 {
+    color: #586AEA;
+}
+
+.hn-left a:hover{
+    border-bottom: 2px solid #586AEA;
+    font-size: 16px;
+}
+
+.first-page {
+    margin: 0 70px 0 100px;
+}
+.hn-right div{
+    height: 36px;
+    padding-top: 6px;
+    padding-left: 6px;
+    margin-right: 100px;
+    margin-top: 17px;
+    width: 300px;
+    border: 1px solid #ccc;
+}
+.hn-right input {
+    padding-left: 10px;
+    float: left;
+    height: 22px;
+    width: 206px;
+    outline: none;
+    border: none;
+    border-left: 1px solid #E6E6E6;
+}
+.hn-right button {
+    float: left;
+    font-size: 22px;
+    border: 0;
+    background: #fff;
+    color: #586AEA;
+    cursor: pointer;
+}
+.hn-right p {
+    float: left;
+    width: 56px;
+    cursor: pointer;
+}
+.hn-right p::after {
+    content: "\ea1c";
+    font-family: "icomoon";
+    font-size: 8px;
+    color: #999;
+}
+
+
+.hn-right div, .hn-right a {
+    float: right;
+}
+
+
+.hn-right a {
+    font-size: 12px;
+    margin-top: 22px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.hn-right .reg {
+    width: 58px;
+    border: 1px solid #586AEA;
+    border-radius: 20px;
+    margin-left: 12px;
+    line-height: 24px;
+    
+}
